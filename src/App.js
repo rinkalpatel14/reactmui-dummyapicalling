@@ -1,24 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
+import ApiCallingAlbumsRes from './ApiCallingAlbumsRes';
+import ApiCallingPostsRes from './ApiCallingPostsRes';
+import ApiCallingCommentsRes from './ApiCallingCommentsRes';
+import ApiCallingTodos from './ApiCallingTodos';
+import ApiCallingPhotosRes from './ApiCallingPhotosRes';
+import ApiCallingUsersRes from './ApiCallingUsersRes';
+import ApiCallingDJsonUsers from './ApiCallingDJsonUsers';
+import ApiCallingDJsonProducts from './ApiCallingDJsonProducts';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <ApiCallingAlbumsRes></ApiCallingAlbumsRes> */}
+      {/* <ApiCallingPostsRes></ApiCallingPostsRes> */}
+      {/* <ApiCallingCommentsRes></ApiCallingCommentsRes> */}
+      {/* <ApiCallingTodos></ApiCallingTodos> */}
+      {/* <ApiCallingPhotosRes></ApiCallingPhotosRes> */}
+      {/* <ApiCallingUsersRes></ApiCallingUsersRes> */}
+      {/* <ApiCallingDJsonUsers></ApiCallingDJsonUsers> */}
+      <ApiCallingDJsonProducts></ApiCallingDJsonProducts>
+    </>
   );
 }
 
